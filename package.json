@@ -1,6 +1,6 @@
 {
   "name": "@xfilante/package-template",
-  "description": "",
+  "description": "Description of the package here",
   "version": "0.0.4",
   "engines": {
     "node": ">=20.6.0"
@@ -59,7 +59,7 @@
     "turbo": "^2.3.3",
     "typescript": "^5.4.5"
   },
-  "author": "mohitxskull, xscale-agency",
+  "author": "mohitxskull, XFilante",
   "license": "MIT",
   "keywords": [],
   "prettier": "@adonisjs/prettier-config",
