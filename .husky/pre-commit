@@ -1,5 +1,5 @@
 . .husky/common.sh
 
-yarn
+ni
 
-yarn check
+nr check
