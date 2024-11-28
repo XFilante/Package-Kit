@@ -10,5 +10,5 @@ build
 dist
 shrinkwrap.yaml
 package-lock.json
-
+.env
 .turbo

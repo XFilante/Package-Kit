@@ -8,3 +8,4 @@ This starter kit is an updated version of the Adonis.js [@adonisjs/package-start
 - **ESLint V9:** Keeps your code clean and consistent with the latest Adonis.js best practices. Refer to the upgrade guide: https://adonisjs.com/blog/upgrading-eslint-typescript-setup
 - **Changeset Versioning:** Manages project versions and changelogs efficiently using `changeset`.
 - **Husky Git Hooks:** Enforces code quality checks and automates workflows with Husky: https://typicode.github.io/husky/
+- **Turbo Build System:** Streamlines the build process using the Turbo Build System: https://turbo.build/repo/docs

@@ -1,31 +1,24 @@
 {
-  "name": "@xfilante/package-kit",
+  "name": "@xfilante/package-template",
   "description": "",
-  "version": "0.0.0",
-  "private": true,
+  "version": "0.0.2",
   "engines": {
     "node": ">=20.6.0"
   },
   "type": "module",
   "files": [
-    "build/src",
-    "build/index.d.ts",
-    "build/index.js"
+    "build/*",
+    "!build/bin/*",
+    "!build/tests/*"
   ],
   "exports": {
     ".": {
-      "types": "./index.js",
+      "types": "./index.ts",
       "default": "./build/index.js"
     }
   },
-  "homepage": "https://github.com/XScale-Agency/Package-Kit#readme",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/XScale-Agency/Package-Kit.git"
-  },
-  "bugs": {
-    "url": "https://github.com/XScale-Agency/Package-Kit/issues"
-  },
+  "homepage": "https://github.com/XFilante/Package-Template#readme",
+  "repository": "https://github.com/XFilante/Package-Template.git",
   "scripts": {
     "clean": "del-cli build",
     "typecheck": "tsc --noEmit",
@@ -35,7 +28,9 @@
     "test": "c8 nr quick:test",
     "prebuild": "nr clean",
     "build": "tsc",
-    "release": "changeset version && changeset publish",
+    "changelog": "na changeset",
+    "release:version": "changeset version",
+    "release": "nr release:version && changeset publish",
     "version": "nr build",
     "prepublishOnly": "nr build",
     "check": "turbo format lint typecheck test",
@@ -69,8 +64,9 @@
   "keywords": [],
   "prettier": "@adonisjs/prettier-config",
   "publishConfig": {
-    "access": "public",
-    "tag": "latest"
+    "access": "restricted",
+    "tag": "latest",
+    "registry": "https://npm.pkg.github.com/"
   },
   "c8": {
     "exclude": [
