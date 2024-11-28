@@ -1,4 +1,4 @@
-# XScale Agency Package Starter Kit
+# Filante Package Template
 
 This starter kit is an updated version of the Adonis.js [@adonisjs/package-starter-kit](https://github.com/adonisjs/pkg-starter-kit) designed to expedite the development process for XScale Agency projects. It provides a solid foundation with modern tooling to streamline your workflow.
 
