@@ -1,5 +1,11 @@
 # @xfilante/package-template
 
+## 0.0.4
+
+### Patch Changes
+
+- Checking if package is working
+
 ## 0.0.3
 
 ### Patch Changes
