@@ -1,5 +1,5 @@
 {
-  "name": "@xfilante/package-template",
+  "name": "@xfilante/package-kit",
   "description": "Description of the package here",
   "version": "0.0.4",
   "engines": {
@@ -17,8 +17,8 @@
       "default": "./build/index.js"
     }
   },
-  "homepage": "https://github.com/XFilante/Package-Template#readme",
-  "repository": "https://github.com/XFilante/Package-Template.git",
+  "homepage": "https://github.com/XFilante/Package-Kit#readme",
+  "repository": "https://github.com/XFilante/Package-Kit.git",
   "scripts": {
     "clean": "del-cli build",
     "typecheck": "tsc --noEmit",
@@ -64,8 +64,7 @@
   "keywords": [],
   "prettier": "@adonisjs/prettier-config",
   "publishConfig": {
-    "access": "restricted",
-    "registry": "https://npm.pkg.github.com/"
+    "access": "public"
   },
   "c8": {
     "exclude": [
